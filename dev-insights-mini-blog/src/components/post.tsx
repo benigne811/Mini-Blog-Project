@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import type { CSSProperties } from 'react';
 import './Post.css';
 import type { PostType } from '../types/post';
 
@@ -16,6 +17,10 @@ function Post({ post }: PostProps) {
   const isNew = hoursSincePosted >= 0 && hoursSincePosted <= 24;
   const isFeaturedAuthor = post.author === 'Benigne';
 
+  const badgeStyle: CSSProperties = {
+    letterSpacing: '0.3px',
+  };
+
   return (
     <article
       className={`post ${isFeaturedAuthor ? 'post--featured' : ''}`}
@@ -23,7 +28,11 @@ function Post({ post }: PostProps) {
       <div className="post-header">
         <h3 className="post-title">{post.title}</h3>
 
-        {isNew && <span className="new-badge">New!</span>}
+        {isNew && (
+          <span className="new-badge" style={badgeStyle}>
+            New!
+          </span>
+        )}
       </div>
 
       <p className="post-meta">
