@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import './Post.css';
 import type { PostType } from '../types/post';
 
@@ -36,4 +37,4 @@ function Post({ post }: PostProps) {
   );
 }
 
-export default Post;
+export default memo(Post);
