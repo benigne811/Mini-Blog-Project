@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import PostList from './components/PostList';
 import './App.css';
 
 function App() {
@@ -8,9 +9,12 @@ function App() {
 
       <main className="main-content">
         <h2 className="page-title">Latest Insights</h2>
+
         <p className="page-description">
-          Welcome to the Dev Insights Mini Blog.
+          Quick tips, insights, and updates from the Dev Insights team.
         </p>
+
+        <PostList />
       </main>
     </div>
   );
