@@ -10,7 +10,7 @@ function PostList() {
       author: 'Benigne',
       content:
         'TypeScript helps developers write safer and more maintainable JavaScript applications.',
-      date: '2026-09-22',
+      date: '2026-09-22T09:00:00',
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function PostList() {
       author: 'Alice',
       content:
         'React components allow developers to break an application into smaller reusable pieces.',
-      date: '2026-09-20',
+      date: '2026-09-20T10:00:00',
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ function PostList() {
       author: 'David',
       content:
         'Git helps developers track changes and collaborate effectively on software projects.',
-      date: '2026-09-18',
+      date: '2026-09-18T10:00:00',
     },
   ];
 
