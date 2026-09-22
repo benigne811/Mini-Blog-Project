@@ -46,3 +46,17 @@
   font-weight: 700;
   white-space: nowrap;
 }
+
+@media (max-width: 600px) {
+  .post {
+    padding: 18px;
+  }
+
+  .post-header {
+    align-items: flex-start;
+  }
+
+  .post-title {
+    font-size: 18px;
+  }
+}

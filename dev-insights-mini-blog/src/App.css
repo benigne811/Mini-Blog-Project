@@ -19,3 +19,17 @@
   margin-bottom: 20px;
   color: #6b7280;
 }
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 28px 16px;
+  }
+
+  .page-title {
+    font-size: 26px;
+  }
+
+  .page-description {
+    font-size: 14px;
+  }
+}
