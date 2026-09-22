@@ -207,5 +207,4 @@ No additional UI or backend libraries were required for this project.
 
 ## Final Notes
 
-This assignment is a foundation-level React project intended to demonstrate a clear understanding of reusable components, typed data, styling, optimization, and higher-order components. It stays focused on the required learning outcomes rather than adding unnecessary advanced features.
-
+This assignment is a foundation-level React project intended to demonstrate a clear understanding of reusable components, typed data, styling, optimization, and higher-order
